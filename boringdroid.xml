@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+	  fetch="https://github.com/boringdroid"
+	  revision="boringdroid-9.0.0" />
+  <remove-project path="device/generic/car" name="device/generic/car" />
+  <remove-project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" />
+  <remove-project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" />
+  <remove-project path="device/generic/mini-emulator-mips64" name="device/generic/mini-emulator-mips64" />
+  <remove-project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" />
+  <remove-project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" />
+  <remove-project path="device/google/muskie" name="device/google/muskie" />
+  <remove-project path="device/google/taimen" name="device/google/taimen" />
+  <remove-project path="device/generic/uml" name="device/generic/uml" />
+  <remove-project path="device/google/cuttlefish" name="device/google/cuttlefish" />
+  <remove-project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" />
+  <remove-project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" />
+  <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
+  <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
+  <remove-project path="device/google/contexthub" name="device/google/contexthub" />
+  <remove-project path="device/google/marlin" name="device/google/marlin" />
+  <remove-project path="device/google/marlin-kernel" name="device/google/marlin-kernel" />
+
+  <remove-project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish.git" remote="github" />
+  <project path="device/generic/boringdroid_x86_64" name="device_generic_boringdroid_x86_64.git" remote="github" />
+  <project path="frameworks/base" name="platform_frameworks_base.git" remote="github" />
+  <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="github" />
+</manifest>
+
