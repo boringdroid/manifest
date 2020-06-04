@@ -197,6 +197,7 @@
   <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="pie-x86" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" remote="x86" revision="pie-x86" />
   <project path="device/generic/x86" name="device/generic/x86" remote="x86" revision="pie-x86" />
+  <project path="external/IA-Hardware-Composer" name="platform/external/IA-Hardware-Composer" remote="x86" revision="pie-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="pie-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="pie-x86" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="pie-x86" />
@@ -204,6 +205,7 @@
   <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="pie-x86" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" remote="x86" revision="pie-x86" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" remote="x86" revision="pie-x86" />
+  <project path="external/drmfb-composer" name="platform/external/drmfb-composer" remote="x86" revision="pie-x86" />
   <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="pie-x86" />
   <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="pie-x86" />
   <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="pie-x86" />
@@ -216,6 +218,8 @@
   <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="pie-x86" />
   <project path="external/llvm90" name="platform/external/llvm" remote="x86" revision="pie-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="pie-x86" />
+  <project path="external/minigbm" name="platform/external/minigbm" remote="x86" revision="pie-x86" />
+  <project path="external/minigbm_intel" name="platform/external/minigbm" remote="x86" revision="pie-x86_intel" />
   <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="pie-x86" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="pie-x86" />
   <project path="external/openssh" name="platform/external/openssh" remote="x86" revision="pie-x86" />
