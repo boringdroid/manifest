@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+	  fetch="https://github.com/boringdroid"
+	  revision="boringdroid-x86-9.0.0" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform_frameworks_base.git" remote="github" />
+</manifest>
+

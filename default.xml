@@ -712,5 +712,8 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="android-x86.xml" />
+  <!-- region @boringdroid -->
+  <include name="boringdroid.xml" />
+  <!-- endregion -->
 
 </manifest>

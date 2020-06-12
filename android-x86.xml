@@ -188,7 +188,7 @@
   <remove-project name="toolchain/pgo-profiles" />
 
   <!-- From Android-x86 repositories -->
-  <remote  name="x86" fetch="." />
+  <remote  name="x86" fetch="git://git.osdn.net/gitroot/android-x86/" />
 
   <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.19" />
   <project path="bionic" name="platform/bionic" remote="x86" revision="pie-x86" />
