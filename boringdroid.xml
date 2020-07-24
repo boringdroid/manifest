@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+	  fetch="https://github.com/boringdroid"
+	  revision="boringdroid-10.0.0" />
+  <remove-project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish.git" remote="github" />
+  <project path="device/generic/boringdroid_x86_64" name="device_generic_boringdroid_x86_64.git" remote="github" />
+  <project path="frameworks/base" name="platform_frameworks_base.git" remote="github" />
+  <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="github" />
+  <project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="github" />
+</manifest>
+
