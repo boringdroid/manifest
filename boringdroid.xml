@@ -10,5 +10,6 @@
   <project path="frameworks/base" name="platform_frameworks_base.git" remote="github" />
   <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="github" />
   <project path="vendor/packages/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI.git" remote="github" />
+  <project path="vendor/packages/apps/BoringdroidSettings" name="vendor_packages_apps_BoringdroidSettings.git" remote="github" />
 </manifest>
 
