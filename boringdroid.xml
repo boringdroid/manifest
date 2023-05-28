@@ -7,4 +7,5 @@
   <project path="frameworks/base" name="platform_frameworks_base.git" remote="github" />
   <project path="device/generic/boringdroid_x86_64" name="device_generic_boringdroid_x86_64.git" remote="github" />
   <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="github" />
+  <project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" clone-depth="1" remote="github" />
 </manifest>
