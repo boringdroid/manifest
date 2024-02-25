@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github"
-	  fetch="https://github.com/boringdroid"
+	  fetch="git@github.com:boringdroid"
 	  revision="boringdroid-14.0.0" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
