@@ -10,4 +10,6 @@
   <project path="vendor/prebuilts/bdapps" name="vendor_prebuilts_bdapps.git" clone-depth="1" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
   <project path="vendor/boringdroid/apps/Launcher3" name="vendor_packages_apps_BoringdroidLauncher3" remote="github" />
+  <project path="vendor/boringdroid/apps/BoringdroidSystemUI" name="vendor_packages_apps_BoringdroidSystemUI" remote="github" />
+  <project path="vendor/boringdroid/apps/BoringdroidSettings" name="vendor_packages_apps_BoringdroidSettings" remote="github" />
 </manifest>
