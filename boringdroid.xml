@@ -5,6 +5,10 @@
 	  revision="boringdroid-14.0.0" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="boringdroid" name="boringdroid.git" remote="github" >
+    <linkfile src="CLAUDE.md" dest="CLAUDE.md" />
+    <linkfile src=".claude" dest=".claude" />
+  </project>
   <project path="device/generic/boringdroid_x86_64" name="device_generic_boringdroid_x86_64.git" remote="github" />
   <project path="vendor/boringdroid" name="vendor_boringdroid.git" remote="github" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
